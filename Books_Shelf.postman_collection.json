@@ -1,0 +1,437 @@
+{
+	"id": "20377a84-9d7f-ec3e-8a63-cb2ad9ac4f77",
+	"name": "Books_Shelf",
+	"description": "",
+	"order": [
+		"fad21f5b-7eb0-601c-bfcd-628792dee253",
+		"4b84d324-7404-69fb-aabe-1570274f30f6",
+		"692b0dbb-8ae8-1af5-e784-f0cec9587fbf",
+		"5b2d2f72-93a8-fdd7-9977-dc93362efba9",
+		"6be9a1cb-01ce-f129-f793-6afc388347bc",
+		"78a01226-e634-7549-f796-a22f41df9066",
+		"918e4faf-61fe-0468-3b1c-1b278a11c5a3",
+		"1709500e-0a83-f233-d4aa-be060d3b7b84",
+		"fca2c6c9-6c7c-8605-37ad-1c635fbf48cc",
+		"c63e3c2b-0052-11e5-834b-d1cf7eb3b89d",
+		"3d1ea08d-8b17-3b33-d19a-724faf4f5123",
+		"fc8c49b5-9969-543b-e65c-85b44bd56ab8"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1533476753803,
+	"owner": "3431765",
+	"public": false,
+	"requests": [
+		{
+			"id": "1709500e-0a83-f233-d4aa-be060d3b7b84",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/api/user/posts?user=5b670ff5ad9e852fecac36f4",
+			"queryParams": [
+				{
+					"key": "user",
+					"value": "5b670ff5ad9e852fecac36f4",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1533484195999,
+			"name": "Logout",
+			"description": "",
+			"collectionId": "20377a84-9d7f-ec3e-8a63-cb2ad9ac4f77",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "fc8c49b5-9969-543b-e65c-85b44bd56ab8",
+			"rawModeData": "{\n\t\"name\": \"The amazing json\",\n    \"author\": \"Me\",\n    \"review\": \"Whatever reviews\",\n    \"pages\": \"200\",\n    \"rating\": \"5\",\n    \"price\": \"1000\",\n    \"ownerId\": \"1\"\n}"
+		},
+		{
+			"id": "3d1ea08d-8b17-3b33-d19a-724faf4f5123",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/api/user/all",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1533483850626,
+			"name": "Users",
+			"description": "",
+			"collectionId": "20377a84-9d7f-ec3e-8a63-cb2ad9ac4f77",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\": \"The amazing json\",\n    \"author\": \"Me\",\n    \"review\": \"Whatever reviews\",\n    \"pages\": \"200\",\n    \"rating\": \"5\",\n    \"price\": \"1000\",\n    \"ownerId\": \"1\"\n}"
+		},
+		{
+			"id": "4b84d324-7404-69fb-aabe-1570274f30f6",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/api/book?id=5b66ffe5a79429656cdce3e4",
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "5b66ffe5a79429656cdce3e4",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1533480128185,
+			"name": "Book",
+			"description": "",
+			"collectionId": "20377a84-9d7f-ec3e-8a63-cb2ad9ac4f77",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\": \"The amazing json\",\n    \"author\": \"Me\",\n    \"review\": \"Whatever reviews\",\n    \"pages\": \"200\",\n    \"rating\": \"5\",\n    \"price\": \"1000\",\n    \"ownerId\": \"1\"\n}"
+		},
+		{
+			"id": "5b2d2f72-93a8-fdd7-9977-dc93362efba9",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/api/book/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1533480199473,
+			"name": "Book_update",
+			"description": "",
+			"collectionId": "20377a84-9d7f-ec3e-8a63-cb2ad9ac4f77",
+			"responses": [],
+			"rawModeData": "{\n\t\"_id\": \"5b66ffe5a79429656cdce3e4\",\n\t\"name\": \"The rock story 2\"\n}"
+		},
+		{
+			"id": "692b0dbb-8ae8-1af5-e784-f0cec9587fbf",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/api/book/all?skip=1&limmit=2&order=desc",
+			"queryParams": [
+				{
+					"key": "skip",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "limmit",
+					"value": "2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "order",
+					"value": "desc",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1533480143033,
+			"name": "Books",
+			"description": "",
+			"collectionId": "20377a84-9d7f-ec3e-8a63-cb2ad9ac4f77",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\": \"The amazing json\",\n    \"author\": \"Me\",\n    \"review\": \"Whatever reviews\",\n    \"pages\": \"200\",\n    \"rating\": \"5\",\n    \"price\": \"1000\",\n    \"ownerId\": \"1\"\n}"
+		},
+		{
+			"id": "6be9a1cb-01ce-f129-f793-6afc388347bc",
+			"headers": "",
+			"headerData": [],
+			"url": "{{url}}/api/book?id=5b66ff6ca79429656cdce3e3",
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "5b66ff6ca79429656cdce3e3",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1533479634769,
+			"name": "Book",
+			"description": "",
+			"collectionId": "20377a84-9d7f-ec3e-8a63-cb2ad9ac4f77",
+			"responses": []
+		},
+		{
+			"id": "78a01226-e634-7549-f796-a22f41df9066",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/api/user/register",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1533480934379,
+			"name": "Register",
+			"description": "",
+			"collectionId": "20377a84-9d7f-ec3e-8a63-cb2ad9ac4f77",
+			"responses": [],
+			"rawModeData": "{\n\t\"email\": \"m.mehabadi@gmail.com\",\n    \"password\": \"123456\",\n    \"name\": \"Mohsen\",\n    \"lastname\": \"Mah\"\n}"
+		},
+		{
+			"id": "918e4faf-61fe-0468-3b1c-1b278a11c5a3",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/api/user/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1533482298650,
+			"name": "Login",
+			"description": "",
+			"collectionId": "20377a84-9d7f-ec3e-8a63-cb2ad9ac4f77",
+			"responses": [],
+			"rawModeData": "{\n\t\"email\": \"m.mehabadi@gmail.com\",\n    \"password\": \"123456\"\n}"
+		},
+		{
+			"id": "c63e3c2b-0052-11e5-834b-d1cf7eb3b89d",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/api/user/reviewer?id=5b670ff5ad9e852fecac36f4",
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "5b670ff5ad9e852fecac36f4",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1533483564180,
+			"name": "Reviewer",
+			"description": "",
+			"collectionId": "20377a84-9d7f-ec3e-8a63-cb2ad9ac4f77",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\": \"The amazing json\",\n    \"author\": \"Me\",\n    \"review\": \"Whatever reviews\",\n    \"pages\": \"200\",\n    \"rating\": \"5\",\n    \"price\": \"1000\",\n    \"ownerId\": \"1\"\n}"
+		},
+		{
+			"id": "fad21f5b-7eb0-601c-bfcd-628792dee253",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/api/book",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1533477812218,
+			"name": "Book",
+			"description": "",
+			"collectionId": "20377a84-9d7f-ec3e-8a63-cb2ad9ac4f77",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\": \"Harry Potter\",\n    \"author\": \"Me\",\n    \"review\": \"Whatever reviews\",\n    \"pages\": \"200\",\n    \"rating\": \"5\",\n    \"price\": \"1000\",\n    \"ownerId\": \"1\"\n}"
+		},
+		{
+			"id": "fc8c49b5-9969-543b-e65c-85b44bd56ab8",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/api/user/posts?user=5b670ff5ad9e852fecac36f4",
+			"queryParams": [
+				{
+					"key": "user",
+					"value": "5b670ff5ad9e852fecac36f4",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1533484195999,
+			"name": "Users/Reviewer_Posts",
+			"description": "",
+			"collectionId": "20377a84-9d7f-ec3e-8a63-cb2ad9ac4f77",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\": \"The amazing json\",\n    \"author\": \"Me\",\n    \"review\": \"Whatever reviews\",\n    \"pages\": \"200\",\n    \"rating\": \"5\",\n    \"price\": \"1000\",\n    \"ownerId\": \"1\"\n}"
+		},
+		{
+			"id": "fca2c6c9-6c7c-8605-37ad-1c635fbf48cc",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/api/user/auth",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1533485930701,
+			"name": "IsAuth",
+			"description": "",
+			"collectionId": "20377a84-9d7f-ec3e-8a63-cb2ad9ac4f77",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\": \"The amazing json\",\n    \"author\": \"Me\",\n    \"review\": \"Whatever reviews\",\n    \"pages\": \"200\",\n    \"rating\": \"5\",\n    \"price\": \"1000\",\n    \"ownerId\": \"1\"\n}"
+		}
+	]
+}
